@@ -31,7 +31,7 @@ Route::get('/keranjang', function () {
     ]);
 });
 
-Route::get('/shop_item', function () {
+Route::get('/shop', function () {
     return view('shop', [
         "title" => "Shop"
     ]);
